@@ -4,7 +4,8 @@
     <?php
         $args =  array(
         'post_type' => 'micro-post',
-        'order' => 'DESC'
+        'order' => 'DESC',
+        'posts_per_page' => '10',
         );
         $custom_query = new WP_Query( $args );
                     while ($custom_query->have_posts()) : $custom_query->the_post();
