@@ -5,5 +5,6 @@
         <div id="copyright">
            <p>all nonderivative content is copyright under the MIT license. some rights reserverd.</p>
         </div>
+<?php wp_footer(); ?>
 </body>
 </html>
