@@ -4,6 +4,7 @@
     <?php
         $args =  array(
         'post_type' => 'micro-post',
+        'orderby' => 'ID',
         'order' => 'DESC',
         'posts_per_page' => '10',
         );
