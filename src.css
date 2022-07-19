@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* html classes */
 body {
-    @apply bg-slate-800;
+    @apply bg-slate-900 text-slate-400;
+}
+
+h1 {
+    @apply uppercase text-2xl;
+}
+
+/* content container */
+#container {
+    @apply w-screen m-0 flex flex-row;
+}
+
+/* left sidebar classes */
+#left-sidebar {
+    @apply basis-1/4 px-2 text-left;
+}
+
+/* right sidebar classes */
+#right-sidebar {
+    @apply basis-1/4 px-2 text-right;
+}
+
+/* main content classes */
+#content {
+    @apply basis-2/4 px-4 border-x-2 border-x-slate-800 text-justify min-h-screen;
+}
+
+#copyright {
+    @apply italic text-sm text-slate-600 pt-8 text-center;
 }
