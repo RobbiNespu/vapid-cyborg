@@ -40,30 +40,30 @@ h2 {
 }
 
 /* add nice decoration to links */
-#content a {
+#content .blog-post a {
     @apply text-slate-500;
 }
 
-#content a:before {
+#content .blog-post a:before {
     content: '<';
     @apply text-slate-300;
 }
 
-#content a:after {
+#content .blog-post a:after {
     content: '>';
     @apply text-slate-300;
 }
 
 /* invert link colors on hover */
-#content a:hover {
+#content .blog-post a:hover {
     @apply text-slate-300;
 }
 
-#content a:hover:before {
+#content .blog-post a:hover:before {
     @apply text-slate-500;
 }
 
-#content a:hover:after {
+#content .blog-post a:hover:after {
     @apply text-slate-500;
 }
 
