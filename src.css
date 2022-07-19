@@ -112,5 +112,5 @@ h2 {
 }
 
 #copyright {
-    @apply italic text-sm text-slate-600 py-8 text-center;
+    @apply italic mx-4 text-sm text-slate-600 py-8 text-center;
 }
