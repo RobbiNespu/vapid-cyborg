@@ -4,8 +4,7 @@
     <?php
         $args =  array(
         'post_type' => 'micro-post',
-        'orderby' => 'menu_order',
-        'order' => 'ASC'
+        'order' => 'DESC'
         );
         $custom_query = new WP_Query( $args );
                     while ($custom_query->have_posts()) : $custom_query->the_post();
