@@ -1,4 +1,15 @@
         <div id="left-sidebar">
-            <h1><?php echo get_bloginfo( 'name' ); ?></h1>
-            <div class="meta"><?php echo get_bloginfo( 'description' ); ?></div>
+            <div id="author-block" class="grid grid-cols-2">
+                <div id="author-block-l">
+                    <img src="<?php echo get_option('profile'); ?>" alt="">
+                </div>
+                <div id="author-block-r">
+                    <button type="button" class="slate"><a href="<?php echo get_option('twitter'); ?>">Mastodon</a></button>
+                    <button type="button" class="slate"><a href="<?php echo get_option('github'); ?>">GitHub</a></button>
+                </div>
+            </div>
+            <div id="title">
+                <h1><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+                <div class="meta"><?php echo get_bloginfo( 'description' ); ?></div>
+            </div>
         </div>
