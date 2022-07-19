@@ -1,21 +1,21 @@
 <?php
-// WordPress Titles
+// WordPress titles
 add_theme_support( 'title-tag' );
 
-// Add scripts and stylesheets
+// add scripts and stylesheets
 function startwordpress_scripts() {
 	wp_enqueue_style( 'blog', get_template_directory_uri() . '/style.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 
-// Custom settings
+// custom theme settings link
 function custom_settings_add_menu() {
 	add_menu_page( 'Vapid Cyborg', 'Vapid Cyborg', 'manage_options', 'custom-settings', 'custom_settings_page', null, 99 );
 }
 add_action( 'admin_menu', 'custom_settings_add_menu' );
 
-// Create Custom Global Settings
+// create custom theme settings
 function custom_settings_page() { ?>
 	<div class="wrap">
 		<h1>Custom Settings</h1>
