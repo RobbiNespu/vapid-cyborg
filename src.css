@@ -11,24 +11,68 @@ h1 {
     @apply uppercase text-2xl;
 }
 
+h2 {
+    @apply uppercase text-xl;
+}
+
+/* add nice decoration to links */
+a {
+    @apply text-slate-500;
+}
+
+a:before {
+    content: '<';
+    @apply text-slate-300;
+}
+
+a:after {
+    content: '>';
+    @apply text-slate-300;
+}
+
+/* invert link colors on hover */
+a:hover {
+    @apply text-slate-300;
+}
+
+a:hover:before {
+    @apply text-slate-500;
+}
+
+a:hover:after {
+    @apply text-slate-500;
+}
+
 /* content container */
 #container {
-    @apply w-screen m-0 flex flex-row;
+    @apply w-screen m-0 grid grid-cols-4;
 }
 
 /* left sidebar classes */
 #left-sidebar {
-    @apply basis-1/4 px-2 text-left;
+    @apply col-span-4 lg:col-span-1 px-2 lg:text-left mb-10;
 }
 
 /* right sidebar classes */
 #right-sidebar {
-    @apply basis-1/4 px-2 text-right;
+    @apply col-span-4 lg:col-span-1 px-2 lg:text-right;
 }
 
 /* main content classes */
 #content {
-    @apply basis-2/4 px-4 border-x-2 border-x-slate-800 text-justify min-h-screen;
+    @apply col-span-4 lg:col-span-2 px-4 border-x-2 border-x-slate-800 lg:text-justify lg:min-h-screen;
+}
+
+#content .post-content{
+    @apply pb-10 pt-2 px-4;
+}
+
+.meta {
+    @apply text-slate-300 text-xs px-4;
+}
+
+#content p {
+    @apply mb-4;
 }
 
 #copyright {
