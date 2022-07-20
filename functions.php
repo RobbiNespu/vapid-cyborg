@@ -39,18 +39,32 @@ function setting_twitter() { ?>
 	<input type="text" name="twitter" id="twitter" value="<?php echo get_option( 'twitter' ); ?>" />
 <?php }
 
+// email
+function setting_email() { ?>
+	<input type="text" name="email" id="email" value="<?php echo get_option( 'email' ); ?>" />
+<?php }
+
 // github
 function setting_github() { ?>
 	<input type="text" name="github" id="github" value="<?php echo get_option('github'); ?>" />
 <?php }
 
+// matrix
+function setting_matrix() { ?>
+	<input type="text" name="matrix" id="matrix" value="<?php echo get_option('matrix'); ?>" />
+<?php }
+
 function custom_settings_page_setup() {
 	add_settings_section( 'section', 'All Settings', null, 'theme-options' );
     add_settings_field( 'profile', 'Profile Picture URL:', 'setting_profile', 'theme-options', 'section' );
+    add_settings_field( 'email', 'Email Contact URL:', 'setting_email', 'theme-options', 'section' );
+    add_settings_field( 'matrix', 'Matrix URL:', 'setting_matrix', 'theme-options', 'section' );
     add_settings_field( 'twitter', 'Twitter URL:', 'setting_twitter', 'theme-options', 'section' );
     add_settings_field( 'github', 'GitHub URL:', 'setting_github', 'theme-options', 'section' );
     
     register_setting( 'section', 'profile' );
+    register_setting( 'section', 'email' );
+    register_setting( 'section', 'matrix' );
     register_setting( 'section', 'twitter' );
     register_setting( 'section', 'github' );
 }
