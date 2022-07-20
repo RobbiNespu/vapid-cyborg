@@ -12,7 +12,7 @@
                     while ($custom_query->have_posts()) : $custom_query->the_post();
     ?>
     
-    <div class="micro-post">
+    <div class="micro-post blog-post">
     <h2 class="micro-post-title"><?php the_title(); ?></h2>
     <?php the_excerpt(); ?>
     </div>

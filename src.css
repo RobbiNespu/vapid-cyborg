@@ -67,30 +67,30 @@ h6{
 }
 
 /* add nice decoration to links */
-#content .blog-post a {
+.blog-post a {
     @apply text-slate-500;
 }
 
-#content .blog-post a:before {
+.blog-post a:before {
     content: '<';
     @apply text-slate-300;
 }
 
-#content .blog-post a:after {
+.blog-post a:after {
     content: '>';
     @apply text-slate-300;
 }
 
 /* invert link colors on hover */
-#content .blog-post a:hover {
+.blog-post a:hover {
     @apply text-slate-300;
 }
 
-#content .blog-post a:hover:before {
+.blog-post a:hover:before {
     @apply text-slate-500;
 }
 
-#content .blog-post a:hover:after {
+.blog-post a:hover:after {
     @apply text-slate-500;
 }
 
