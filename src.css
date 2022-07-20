@@ -59,7 +59,7 @@ h6{
 
 /* main content classes */
 #content {
-    @apply col-span-4 lg:col-span-2 p-4 my-4 lg:py-0 lg:my-0 border-y-2 border-y-slate-800 lg:border-y-0 lg:border-x-2 lg:border-x-slate-800 lg:text-justify lg:min-h-screen;
+    @apply p-4 col-span-4 lg:col-span-2 lg:py-0 lg:my-0 border-y-2 border-y-slate-800 lg:border-y-0 lg:border-x-2 lg:border-x-slate-800 lg:text-justify lg:min-h-screen;
 }
 
 #content .post-content{
