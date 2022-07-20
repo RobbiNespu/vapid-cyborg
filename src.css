@@ -57,15 +57,15 @@ h6{
     @apply m-4 text-center lg:text-left;
 }
 
-.quotes-post {
+.site-news-post {
     @apply mb-8 mx-4 pl-2 border-l-4 border-double border-slate-300;
 }
 
-.quotes-post h2 {
+.site-news-post h2 {
     @apply text-lg;
 }
 
-.quotes-post p {
+.site-news-post p {
     @apply text-sm;
 }
 
