@@ -87,12 +87,12 @@ h6{
     @apply text-slate-500;
 }
 
-.blog-post a:before {
+.blog-post p a:before {
     content: '<';
     @apply text-slate-300;
 }
 
-.blog-post a:after {
+.blog-post p a:after {
     content: '>';
     @apply text-slate-300;
 }
