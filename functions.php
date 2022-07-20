@@ -78,6 +78,6 @@ add_action( 'init', 'create_micro_post' );
 
 // better read more link
 function modify_read_more_link() {
-    return '<p><a class="more-link" href="' . get_permalink() . '">read more</a></p>';
+    return '<h6><a class="more-link" href="' . get_permalink() . '">read more</a></h6>';
 }
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
