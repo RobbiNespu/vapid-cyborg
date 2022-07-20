@@ -30,7 +30,7 @@ h6{
 
 /* left sidebar classes */
 #left-sidebar {
-    @apply mx-2 col-span-4 lg:col-span-1 lg:text-left;
+    @apply my-2 mx-2 col-span-4 lg:col-span-1 lg:text-left;
 }
 
 #left-sidebar img {
@@ -120,7 +120,7 @@ h6{
 
 /* right sidebar classes */
 #right-sidebar {
-    @apply mx-2 col-span-4 lg:col-span-1 text-right;
+    @apply my-2 mx-2 col-span-4 lg:col-span-1 text-right;
 }
 
 .micro-post {
