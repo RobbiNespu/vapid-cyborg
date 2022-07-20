@@ -16,7 +16,8 @@
                 <div class="meta"><?php echo get_bloginfo( 'description' ); ?></div>
             </div>
 
-            <div id="quotes">
+            <div id="site-news">
+                <h5 class="mb-4">Site News:</h5>
             <?php
                 $args =  array(
                 'post_type' => 'site-news-post',
@@ -29,6 +30,7 @@
             ?>
             
             <div class="site-news-post blog-post">
+            <span class="meta"><?php echo get_the_date( 'j F, Y' ); ?></span>
             <h2 class="site-news-post-title"><?php the_title(); ?></h2>
             <?php the_excerpt(); ?>
             </div>

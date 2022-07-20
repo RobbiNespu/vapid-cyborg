@@ -1,6 +1,6 @@
 
 <div id="right-sidebar">
-
+    <h5 class="mb-4">Global News:</h5>
     <?php
         $args =  array(
         'post_type' => 'micro-post',
@@ -13,6 +13,7 @@
     ?>
     
     <div class="micro-post blog-post">
+    <span class="meta"><?php echo get_the_date( 'j F, Y' ); ?></span>
     <h2 class="micro-post-title"><?php the_title(); ?></h2>
     <?php the_excerpt(); ?>
     </div>

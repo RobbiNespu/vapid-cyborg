@@ -54,7 +54,11 @@ h6{
 }
 
 #title {
-    @apply m-4 text-center lg:text-left;
+    @apply my-4 text-center lg:text-left;
+}
+
+#site-news {
+    @apply mt-8;
 }
 
 .site-news-post {
@@ -107,7 +111,7 @@ h6{
 }
 
 .meta {
-    @apply text-slate-300 text-xs px-4;
+    @apply text-slate-300 text-xs;
 }
 
 #content p {
