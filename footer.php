@@ -6,7 +6,7 @@
         'post_type' => 'micro-post',
         'orderby' => 'ID',
         'order' => 'DESC',
-        'posts_per_page' => '10',
+        'posts_per_page' => '5',
         );
         $custom_query = new WP_Query( $args );
                     while ($custom_query->have_posts()) : $custom_query->the_post();
