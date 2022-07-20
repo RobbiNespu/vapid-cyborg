@@ -19,6 +19,10 @@ h2 {
     @apply text-xl;
 }
 
+h6{
+    @apply bg-red-800 text-red-300 border-4 border-double border-red-300 text-center w-2/4 m-auto p-2;
+}
+
 /* content container */
 #container {
     @apply w-screen m-0 grid grid-cols-4;

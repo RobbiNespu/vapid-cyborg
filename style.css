@@ -626,6 +626,21 @@ h2 {
   line-height: 1.75rem;
 }
 
+h6 {
+  margin: auto;
+  width: 50%;
+  border-width: 4px;
+  border-style: double;
+  --tw-border-opacity: 1;
+  border-color: rgb(252 165 165 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(252 165 165 / var(--tw-text-opacity));
+}
+
 /* content container */
 
 #container {
