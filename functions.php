@@ -75,8 +75,8 @@ function create_micro_post() {
 	register_post_type( 'micro-post',
 			array(
 			'labels' => array(
-	'name' => __( 'Micro Post' ),
-	'singular_name' => __( 'Micro Post' ),
+	'name' => __( 'Global News Post' ),
+	'singular_name' => __( 'Global News Post' ),
 			),
 			'public' => true,
 			'has_archive' => true,
@@ -89,6 +89,26 @@ function create_micro_post() {
 	));
 }
 add_action( 'init', 'create_micro_post' );
+
+// site news post type
+function create_site_news_post() {
+	register_post_type( 'site-news-post',
+			array(
+			'labels' => array(
+	'name' => __( 'Site News Post' ),
+	'singular_name' => __( 'Site News Post' ),
+			),
+			'public' => true,
+			'has_archive' => true,
+			'supports' => array(
+	'title',
+	'editor',
+	'thumbnail',
+	'custom-fields'
+			)
+	));
+}
+add_action( 'init', 'create_site_news_post' );
 
 // better read more link
 function modify_read_more_link() {
