@@ -82,32 +82,14 @@ h6{
     @apply p-4;
 }
 
-/* add nice decoration to links */
+/* add nice color to links */
 .blog-post a {
     @apply text-slate-500;
-}
-
-.blog-post p a:before {
-    content: '<';
-    @apply text-slate-300;
-}
-
-.blog-post p a:after {
-    content: '>';
-    @apply text-slate-300;
 }
 
 /* invert link colors on hover */
 .blog-post a:hover {
     @apply text-slate-300;
-}
-
-.blog-post a:hover:before {
-    @apply text-slate-500;
-}
-
-.blog-post a:hover:after {
-    @apply text-slate-500;
 }
 
 .meta {
