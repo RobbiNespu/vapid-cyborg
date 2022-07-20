@@ -20,7 +20,7 @@ h2 {
 }
 
 h6{
-    @apply bg-red-800 text-red-300 border-4 border-double border-red-300 text-center p-1;
+    @apply bg-red-800 text-red-300 border-4 border-double border-red-300 text-center p-1 mb-4;
 }
 
 /* content container */
