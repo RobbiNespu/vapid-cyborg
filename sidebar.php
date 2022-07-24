@@ -23,7 +23,7 @@
                 'post_type' => 'site-news-post',
                 'orderby' => 'ID',
                 'order' => 'DESC',
-                'posts_per_page' => '2',
+                'posts_per_page' => '8',
                 );
                 $custom_query = new WP_Query( $args );
                     while ($custom_query->have_posts()) : $custom_query->the_post();
