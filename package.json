@@ -6,9 +6,8 @@
   "dependencies": {
     "tailwindcss": "^3.1.6"
   },
-  "devDependencies": {},
   "scripts": {
-    "build": "npx tailwindcss -i ./src.css -o ./style.css --minify --watch"
+    "build": "npx tailwindcss -i ./src.css -o ./style.css -w -m"
   },
   "repository": {
     "type": "git",
