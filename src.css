@@ -23,6 +23,10 @@
         @apply bg-red-800 text-red-300 border-4 border-double border-red-300 text-center p-1 mb-4;
     }
 
+    pre {
+        @apply m-2 p-2 bg-slate-800 border-l border-double border-slate-600;
+    }
+
 /* content container */
     #container {
         @apply max-w-fit m-0 grid grid-cols-4;
