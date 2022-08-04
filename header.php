@@ -7,5 +7,5 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <div id="container">
+    <div id="container" class="max-w-fit m-0 grid grid-cols-4">
     <?php get_sidebar(); ?>

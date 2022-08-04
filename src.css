@@ -27,27 +27,11 @@
         @apply m-2 p-2 bg-slate-800 border-l border-double border-slate-600;
     }
 
-/* content container */
-    #container {
-        @apply max-w-fit m-0 grid grid-cols-4;
-    }
-
-/* left sidebar classes */
-    #left-sidebar {
-        @apply my-2 mx-2 col-span-4 lg:col-span-1 lg:text-left;
-    }
-
     img {
         @apply border-4 border-double border-slate-300;
     }
 
-    #author-block-l {
-        @apply pr-1 flex flex-col place-content-center;
-    }
-
-    #author-block-r {
-        @apply flex flex-col place-content-center;
-    }
+/* left sidebar classes */
 
     #author-block-r button {
         @apply mb-2;
@@ -57,33 +41,8 @@
         @apply inline-block px-6 py-2.5 bg-slate-600 text-slate-50 font-medium text-xs leading-tight uppercase border-2 border-double border-slate-300 shadow-md hover:bg-slate-700 hover:shadow-lg focus:bg-slate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-800 active:shadow-lg transition duration-150 ease-in-out;
     }
 
-    #title {
-        @apply my-4 text-center lg:text-left;
-    }
-
-    #site-news {
-        @apply mt-8;
-    }
-
-    .site-news-post {
-        @apply mb-8 mx-2 pl-2 border-l-4 border-double border-slate-700;
-    }
-
-    .site-news-post h2 {
-        @apply text-lg;
-    }
-
     .site-news-post p {
         @apply text-sm;
-    }
-
-/* main content classes */
-    #content {
-        @apply p-4 col-span-4 lg:col-span-2 lg:py-0 lg:my-0 border-y-2 border-y-slate-800 lg:border-y-0 lg:border-x-2 lg:border-x-slate-800 lg:text-justify lg:min-h-screen;
-    }
-
-    #content .post-content{
-        @apply p-4;
     }
 
 /* add nice color to links */
@@ -105,22 +64,6 @@
     }
 
 /* right sidebar classes */
-    #right-sidebar {
-        @apply my-2 mx-2 col-span-4 lg:col-span-1 text-right;
-    }
-
-    .micro-post {
-        @apply mb-8 mx-2 pr-2 border-r-4 border-double border-slate-700;
-    }
-
-    .micro-post h2 {
-        @apply text-lg;
-    }
-
     .micro-post p {
         @apply text-sm;
-    }
-
-    #copyright {
-        @apply italic mx-4 text-sm text-slate-600 py-8 text-center;
     }
