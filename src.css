@@ -11,14 +11,6 @@
         @apply font-bold uppercase text-slate-200;
     }
 
-    h1 {
-        @apply text-2xl;
-    }
-
-    h2 {
-        @apply text-xl;
-    }
-
     h6{
         @apply bg-red-800 text-red-300 border-4 border-double border-red-300 text-center p-1 mb-4;
     }

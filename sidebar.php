@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div id="title" class="my-4 text-center lg:text-left">
-                <h1><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+                <h1 class="text-2xl"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
                 <div class="meta"><?php echo get_bloginfo( 'description' ); ?></div>
             </div>
 
