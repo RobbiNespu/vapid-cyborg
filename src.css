@@ -44,7 +44,7 @@
 
 /* invert link colors on hover */
     .blog-post a:hover {
-        @apply text-slate-300;
+        @apply text-slate-300 underline;
     }
 
     .meta {
