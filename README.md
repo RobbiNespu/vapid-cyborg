@@ -1,2 +1,2 @@
 # Vapid Cyborg
-Mobile-first theme for WordPress. Currently in very early draft stages, most typography is not done, and structure and elements are not finalised.
+Mobile-first theme for WordPress, heavy on typography with very little images to slow things down. The goal of this project is to create a theme with a focus on content over superfluous design, fitting as much information on the page as possible without compromising usability.
