@@ -29,7 +29,7 @@
                     while ($custom_query->have_posts()) : $custom_query->the_post();
             ?>
             
-            <div class="site-news-post mb-8 mx-2 pl-2 border-l-4 border-double border-slate-700">
+            <div class="micro-post mb-8 mx-2 pl-2 border-l-4 border-double border-slate-700">
             <span class="meta"><?php echo get_the_date( 'j F, Y' ); ?></span>
             <h2 class="text-lg"><?php the_title(); ?></h2>
             <?php the_excerpt(); ?>
