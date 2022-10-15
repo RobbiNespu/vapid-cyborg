@@ -65,7 +65,7 @@
 		add_settings_field( 'profile', 'Profile Picture URL:', 'setting_profile', 'theme-options', 'section' );
 		add_settings_field( 'email', 'Email Contact URL:', 'setting_email', 'theme-options', 'section' );
 		add_settings_field( 'matrix', 'Matrix URL:', 'setting_matrix', 'theme-options', 'section' );
-		add_settings_field( 'twitter', 'Twitter URL:', 'setting_twitter', 'theme-options', 'section' );
+		add_settings_field( 'twitter', 'Mastodon URL:', 'setting_twitter', 'theme-options', 'section' );
 		add_settings_field( 'github', 'GitHub URL:', 'setting_github', 'theme-options', 'section' );
 		add_settings_field( 'copyright', 'Copyright Text:', 'setting_copyright', 'theme-options', 'section' );
 		
