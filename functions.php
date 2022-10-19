@@ -34,9 +34,9 @@
 		<input type="text" name="profile" id="profile" value="<?php echo get_option( 'profile' ); ?>" />
 	<?php }
 
-// twitter
-	function setting_twitter() { ?>
-		<input type="text" name="twitter" id="twitter" value="<?php echo get_option( 'twitter' ); ?>" />
+// mastodon
+	function setting_mastodon() { ?>
+		<input type="text" name="mastodon" id="mastodon" value="<?php echo get_option( 'mastodon' ); ?>" />
 	<?php }
 
 // email
@@ -65,14 +65,14 @@
 		add_settings_field( 'profile', 'Profile Picture URL:', 'setting_profile', 'theme-options', 'section' );
 		add_settings_field( 'email', 'Email Contact URL:', 'setting_email', 'theme-options', 'section' );
 		add_settings_field( 'matrix', 'Matrix URL:', 'setting_matrix', 'theme-options', 'section' );
-		add_settings_field( 'twitter', 'Mastodon URL:', 'setting_twitter', 'theme-options', 'section' );
+		add_settings_field( 'mastodon', 'Mastodon URL:', 'setting_mastodon', 'theme-options', 'section' );
 		add_settings_field( 'github', 'GitHub URL:', 'setting_github', 'theme-options', 'section' );
 		add_settings_field( 'copyright', 'Copyright Text:', 'setting_copyright', 'theme-options', 'section' );
 		
 		register_setting( 'section', 'profile' );
 		register_setting( 'section', 'email' );
 		register_setting( 'section', 'matrix' );
-		register_setting( 'section', 'twitter' );
+		register_setting( 'section', 'mastodon' );
 		register_setting( 'section', 'github' );
 		register_setting( 'section', 'copyright' );
 	}
