@@ -7,7 +7,7 @@
                     <div class="meta text-center">contact me via:</div>
                     <a href="<?php echo get_option('mastodon'); ?>" rel="me"><button type="button" class="slate">Mastodon</button></a>
                     <a href="<?php echo get_option('matrix'); ?>"><button type="button" class="slate">Matrix</button></a>
-                    <a href="<?php echo get_option('email'); ?>"><button type="button" class="slate">Email</button></a>
+                    <a href="<?php echo get_option('email'); ?>"><button type="button" class="slate">Contact</button></a>
                     <a href="<?php echo get_option('github'); ?>"><button type="button" class="slate">GitHub</button></a>
                 </div>
             </div>

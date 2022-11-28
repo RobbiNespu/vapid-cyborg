@@ -78,26 +78,6 @@
 	}
 	add_action( 'admin_init', 'custom_settings_page_setup' );
 
-// micro news post type
-	function create_micro_post() {
-		register_post_type( 'micro-post',
-				array(
-				'labels' => array(
-		'name' => __( 'Global News Post' ),
-		'singular_name' => __( 'Global News Post' ),
-				),
-				'public' => true,
-				'has_archive' => true,
-				'supports' => array(
-		'title',
-		'editor',
-		'thumbnail',
-		'custom-fields'
-				)
-		));
-	}
-	add_action( 'init', 'create_micro_post' );
-
 // site news post type
 	function create_site_news_post() {
 		register_post_type( 'site-news-post',
