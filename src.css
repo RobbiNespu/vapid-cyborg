@@ -12,11 +12,11 @@
     }
 
     h6{
-        @apply bg-red-800 text-red-300 border-4 border-double border-red-300 text-center p-1 mb-4;
+        @apply p-1 my-4 bg-red-900 text-red-300 border border-red-300 text-center w-3/4 mx-auto;
     }
 
     pre {
-        @apply m-2 p-2 bg-slate-800 border-l border-double border-slate-500;
+        @apply my-4 p-2 bg-slate-800 border-l border-double border-slate-500 w-3/4 mx-auto;
     }
 
     img {
