@@ -4,7 +4,7 @@
   "description": "mobile-first wordpress theme",
   "main": "tailwind.config.js",
   "dependencies": {
-    "tailwindcss": "^3.1.6"
+    "tailwindcss": "^3.2.4"
   },
   "scripts": {
     "build": "npx tailwindcss -i ./src.css -o ./style.css -w -m"

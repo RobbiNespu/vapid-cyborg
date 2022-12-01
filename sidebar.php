@@ -1,4 +1,9 @@
-        <div id="left-sidebar" class="my-2 mx-2 col-span-4 lg:col-span-1 lg:text-left">
+        <div id="left-sidebar" class="mb-2 mx-2 col-span-4 lg:col-span-1 lg:text-left">
+            <div id="title" class="mb-4 text-center lg:text-left">
+                <h1 class="text-2xl"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+                <div class="meta"><?php echo get_bloginfo( 'description' ); ?></div>
+            </div>
+
             <div id="author-block" class="grid grid-cols-2">
                 <div id="author-block-l" class="pr-1 flex flex-col place-content-center">
                     <img src="<?php echo get_option('profile'); ?>" alt="">
@@ -10,10 +15,6 @@
                     <a href="<?php echo get_option('email'); ?>"><button type="button" class="slate">Contact</button></a>
                     <a href="<?php echo get_option('github'); ?>"><button type="button" class="slate">GitHub</button></a>
                 </div>
-            </div>
-            <div id="title" class="my-4 text-center lg:text-left">
-                <h1 class="text-2xl"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-                <div class="meta"><?php echo get_bloginfo( 'description' ); ?></div>
             </div>
 
             <div id="site-news" class="mt-8">

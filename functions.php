@@ -6,7 +6,6 @@
 	function startwordpress_scripts() {
 		wp_enqueue_style( 'blog', get_template_directory_uri() . '/style.css' );
 	}
-
 	add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 
 // custom theme settings link
