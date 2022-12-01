@@ -35,12 +35,12 @@
 
 /* add nice color to links */
     .blog-post a {
-        @apply text-slate-500;
+        @apply text-slate-400 border-dotted border-b;
     }
 
 /* invert link colors on hover */
     .blog-post a:hover {
-        @apply text-slate-300 underline;
+        @apply text-slate-300 border-solid;
     }
 
     .meta {
