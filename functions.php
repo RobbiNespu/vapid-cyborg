@@ -2,9 +2,6 @@
 // WordPress titles
 	add_theme_support( 'title-tag' );
 
-// Wordpress featured image support
-	add_theme_support( 'post-thumbnails' );
-
 // add scripts and stylesheets
 	function startwordpress_scripts() {
 		wp_enqueue_style( 'blog', get_template_directory_uri() . '/style.css' );
