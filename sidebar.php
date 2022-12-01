@@ -1,7 +1,7 @@
         <div id="left-sidebar" class="mb-2 mx-2 col-span-4 lg:col-span-1 lg:text-left">
             <div id="title" class="mb-4 text-center lg:text-left">
-                <h1 class="text-2xl"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-                <div class="meta"><?php echo get_bloginfo( 'description' ); ?></div>
+                <h1 class="text-2xl"><a href="<?php echo get_bloginfo('wpurl');?>"><?php echo get_bloginfo('name'); ?></a></h1>
+                <div class="meta"><?php echo get_bloginfo('description'); ?></div>
             </div>
 
             <div id="author-block" class="grid grid-cols-2">
@@ -26,12 +26,12 @@
                 'order' => 'DESC',
                 'posts_per_page' => '8',
                 );
-                $custom_query = new WP_Query( $args );
-                    while ($custom_query->have_posts()) : $custom_query->the_post();
-            ?>
-            
+                $custom_query = new WP_Query($args);
+                while ($custom_query->have_posts()) : $custom_query->the_post();
+                    ?>
+
             <div class="micro-post mb-8 mx-2 pl-2 border-l-4 border-double border-stone-700">
-            <span class="meta"><?php echo get_the_date( 'j F, Y' ); ?></span>
+            <span class="meta"><?php echo get_the_date('j F, Y'); ?></span>
             <h2 class="text-lg"><?php the_title(); ?></h2>
             <?php the_excerpt(); ?>
             </div>
