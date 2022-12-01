@@ -16,7 +16,7 @@
     }
 
     pre {
-        @apply m-2 p-2 bg-slate-800 border-l border-double border-slate-600;
+        @apply m-2 p-2 bg-slate-800 border-l border-double border-slate-500;
     }
 
     img {
