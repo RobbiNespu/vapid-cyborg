@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html classes */
+// html classes
 body {
   @apply bg-stone-900 text-stone-300;
 }
@@ -20,45 +20,47 @@ img {
   @apply border-4 border-double border-stone-300;
 }
 
-/* blog headings */
+// blog headings
 .blog-content h1 {
   @apply font-extrabold text-8xl;
 }
 
-/* blog headings */
+// blog headings
 .blog-content h2 {
   @apply font-extrabold text-6xl;
 }
 
-/* blog headings */
+// blog headings
 .blog-content h3 {
   @apply font-extrabold text-4xl;
 }
 
-/* blog headings */
+// blog headings
 .blog-content h4 {
   @apply font-extrabold text-2xl;
 }
 
-/* orange warning notice */
+// orange warning notice
 .blog-content h5 {
   @apply my-4 p-2 bg-orange-900 text-orange-300 border border-orange-300 text-center w-3/4 mx-auto;
 }
 
-/* red warning notice */
+// red warning notice
 .blog-content h6 {
   @apply my-4 p-2 bg-red-900 text-red-300 border border-red-300 text-center w-3/4 mx-auto;
 }
 
+// preformatted text
 .blog-content pre {
   @apply my-4 p-2 bg-neutral-800 border-l border-double border-neutral-500 w-3/4 mx-auto;
 }
 
+// paragraph
 .blog-content p {
 @apply m-3;
 }
 
-/* left sidebar classes */
+// left sidebar classes
 
 #author-block-r button {
   @apply mb-2 w-full;
@@ -68,25 +70,22 @@ img {
   @apply inline-block px-6 py-2.5 bg-stone-600 text-stone-50 font-medium text-xs leading-tight uppercase border-2 border-double border-stone-300 shadow-md hover:bg-stone-700 hover:shadow-lg focus:bg-stone-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-stone-800 active:shadow-lg transition duration-150 ease-in-out;
 }
 
-/* add nice color to links */
+// add nice color to links
 .blog-content a {
   @apply text-stone-400 border-dotted border-b;
 }
 
-/* invert link colors on hover */
+// invert link colors on hover
 .blog-content a:hover {
   @apply text-stone-300 border-solid;
 }
 
+// post meta info
 .meta {
   @apply text-stone-300 text-xs;
 }
 
-#content p {
-  @apply mb-4;
-}
-
-/* right sidebar classes */
+// right sidebar classes
 .micro-post p {
   @apply text-sm;
 }
