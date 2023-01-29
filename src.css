@@ -50,9 +50,30 @@ img {
   @apply my-4 p-2 bg-red-900 text-red-300 border border-red-300 text-center w-3/4 mx-auto;
 }
 
-/* preformatted text */
-.blog-content pre {
+/* blockquote */
+.blog-content blockquote {
   @apply my-4 p-2 bg-neutral-800 border-l border-double border-neutral-500 w-3/4 mx-auto;
+}
+
+/* blockquote */
+.blog-content blockquote {
+  @apply mx-auto p-2 bg-neutral-800 border-l border-double border-neutral-500 w-3/4;
+}
+
+/* cite */
+.blog-content cite {
+  @apply text-neutral-100 uppercase font-bold;
+}
+
+/* cite */
+.blog-content cite {
+  @apply before:content-['—'];
+}
+
+
+/* pre */
+.blog-content pre {
+  @apply my-4 p-2 bg-neutral-900 border border-double border-neutral-500 text-neutral-100;
 }
 
 /* paragraph */
