@@ -22,22 +22,22 @@ img {
 
 /* blog headings */
 .blog-content h1 {
-  @apply font-extrabold text-8xl;
-}
-
-/* blog headings */
-.blog-content h2 {
-  @apply font-extrabold text-6xl;
-}
-
-/* blog headings */
-.blog-content h3 {
   @apply font-extrabold text-4xl;
 }
 
 /* blog headings */
-.blog-content h4 {
+.blog-content h2 {
+  @apply font-extrabold text-3xl;
+}
+
+/* blog headings */
+.blog-content h3 {
   @apply font-extrabold text-2xl;
+}
+
+/* blog headings */
+.blog-content h4 {
+  @apply my-4 p-2 bg-neutral-800 border border-neutral-500 text-center w-3/4 mx-auto;
 }
 
 /* orange warning notice */
