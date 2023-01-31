@@ -10,10 +10,10 @@
                 </div>
                 <div id="author-block-r" class="flex flex-col place-content-center">
                     <div class="meta text-center">contact me via:</div>
-                    <a href="<?php echo get_option('mastodon'); ?>" rel="me"><button type="button" class="stone">Mastodon</button></a>
-                    <a href="<?php echo get_option('matrix'); ?>"><button type="button" class="stone">Matrix</button></a>
-                    <a href="<?php echo get_option('email'); ?>"><button type="button" class="stone">Contact</button></a>
-                    <a href="<?php echo get_option('github'); ?>"><button type="button" class="stone">GitHub</button></a>
+                    <button type="button" class="stone"><a href="<?php echo get_option('mastodon'); ?>" rel="me">Mastodon</a></button>
+                    <button type="button" class="stone"><a href="<?php echo get_option('matrix'); ?>">Matrix</a></button>
+                    <button type="button" class="stone"><a href="<?php echo get_option('email'); ?>">Contact</a></button>
+                    <button type="button" class="stone"><a href="<?php echo get_option('github'); ?>">GitHub</a></button>
                 </div>
             </div>
 
