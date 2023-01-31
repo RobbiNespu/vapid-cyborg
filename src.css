@@ -3,59 +3,100 @@
 @tailwind utilities;
 
 /* html classes */
-    body {
-        @apply bg-slate-900 text-slate-300;
-    }
+body {
+  @apply bg-stone-900 text-stone-300;
+}
 
-    h1, h2, h3, h4, h5, h6 {
-        @apply font-bold uppercase text-slate-200;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold uppercase text-stone-200;
+}
 
-    h6{
-        @apply bg-red-800 text-red-300 border-4 border-double border-red-300 text-center p-1 mb-4;
-    }
+img {
+  @apply border-4 border-double border-stone-300;
+}
 
-    pre {
-        @apply m-2 p-2 bg-slate-800 border-l border-double border-slate-600;
-    }
+/* blog headings */
+.blog-content h1 {
+  @apply font-extrabold text-4xl;
+}
 
-    img {
-        @apply border-4 border-double border-slate-300;
-    }
+/* blog headings */
+.blog-content h2 {
+  @apply font-extrabold text-3xl;
+}
+
+/* blog headings */
+.blog-content h3 {
+  @apply font-extrabold text-2xl;
+}
+
+/* black general notice */
+.blog-content h4 {
+  @apply my-4 p-2 bg-neutral-800 border-double border border-neutral-500 text-center w-full mx-auto;
+}
+
+/* orange warning notice */
+.blog-content h5 {
+  @apply my-4 p-2 bg-orange-900 text-orange-300 border border-double border-orange-300 text-center w-full;
+}
+
+/* red warning notice */
+.blog-content h6 {
+  @apply my-4 p-2 bg-red-900 text-red-300 border border-double border-red-300 text-center w-full mx-auto;
+}
+
+/* blockquote */
+.blog-content blockquote {
+  @apply my-4 p-2 bg-neutral-800 border-l border-double border-neutral-500 w-3/4 mx-auto;
+}
+
+/* cite */
+.blog-content cite {
+  @apply text-neutral-100 uppercase font-bold before:content-['—'];
+}
+
+
+/* pre */
+.blog-content pre {
+  @apply my-4 p-2 bg-neutral-900 border-y border-dotted border-neutral-500 text-neutral-100;
+}
+
+/* paragraph */
+.blog-content p {
+@apply m-3;
+}
 
 /* left sidebar classes */
 
-    #author-block-r button {
-        @apply mb-2;
-    }
+#author-block-r button {
+  @apply mb-2 w-full;
+}
 
-    #author-block-r .slate {
-        @apply inline-block px-6 py-2.5 bg-slate-600 text-slate-50 font-medium text-xs leading-tight uppercase border-2 border-double border-slate-300 shadow-md hover:bg-slate-700 hover:shadow-lg focus:bg-slate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-800 active:shadow-lg transition duration-150 ease-in-out;
-    }
-
-    .site-news-post p {
-        @apply text-sm;
-    }
+#author-block-r .stone {
+  @apply inline-block px-6 py-2.5 bg-stone-600 text-stone-50 font-medium text-xs leading-tight uppercase border-2 border-double border-stone-300 shadow-md hover:bg-stone-700 hover:shadow-lg focus:bg-stone-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-stone-800 active:shadow-lg transition duration-150 ease-in-out;
+}
 
 /* add nice color to links */
-    .blog-post a {
-        @apply text-slate-500;
-    }
+.blog-content a {
+  @apply text-stone-400 border-dotted border-b;
+}
 
 /* invert link colors on hover */
-    .blog-post a:hover {
-        @apply text-slate-300 underline;
-    }
+.blog-content a:hover {
+  @apply text-stone-300 border-solid;
+}
 
-    .meta {
-        @apply text-slate-300 text-xs;
-    }
-
-    #content p {
-        @apply mb-4;
-    }
+/* post meta info */
+.meta {
+  @apply text-stone-300 text-xs;
+}
 
 /* right sidebar classes */
-    .micro-post p {
-        @apply text-sm;
-    }
+.micro-post p {
+  @apply text-sm;
+}
