@@ -37,17 +37,17 @@ img {
 
 /* black general notice */
 .blog-content h4 {
-  @apply my-4 p-2 bg-neutral-800 border border-neutral-500 text-center w-full mx-auto;
+  @apply my-4 p-2 bg-neutral-800 border-double border border-neutral-500 text-center w-full mx-auto;
 }
 
 /* orange warning notice */
 .blog-content h5 {
-  @apply my-4 p-2 bg-orange-900 text-orange-300 border border-orange-300 text-center w-full;
+  @apply my-4 p-2 bg-orange-900 text-orange-300 border border-double border-orange-300 text-center w-full;
 }
 
 /* red warning notice */
 .blog-content h6 {
-  @apply my-4 p-2 bg-red-900 text-red-300 border border-red-300 text-center w-full mx-auto;
+  @apply my-4 p-2 bg-red-900 text-red-300 border border-double border-red-300 text-center w-full mx-auto;
 }
 
 /* blockquote */
@@ -55,25 +55,15 @@ img {
   @apply my-4 p-2 bg-neutral-800 border-l border-double border-neutral-500 w-3/4 mx-auto;
 }
 
-/* blockquote */
-.blog-content blockquote {
-  @apply mx-auto p-2 bg-neutral-800 border-l border-double border-neutral-500 w-3/4;
-}
-
 /* cite */
 .blog-content cite {
-  @apply text-neutral-100 uppercase font-bold;
-}
-
-/* cite */
-.blog-content cite {
-  @apply before:content-['—'];
+  @apply text-neutral-100 uppercase font-bold before:content-['—'];
 }
 
 
 /* pre */
 .blog-content pre {
-  @apply my-4 p-2 bg-neutral-900 border border-double border-neutral-500 text-neutral-100;
+  @apply my-4 p-2 bg-neutral-900 border-y border-dotted border-neutral-500 text-neutral-100;
 }
 
 /* paragraph */
